@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salmeron.mario.bowlingapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linePlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_above="@+id/linePlayer2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/nameOne"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNameOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frameOne"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pOneFrameOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frameTwo"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pOneFrameTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frameThree"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pOneFrameThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linePlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/nameTwo"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNameTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SframeOne"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pTwoFrameOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SframeTwo"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pTwoFrameTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SframeThree"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pTwoFrameThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
